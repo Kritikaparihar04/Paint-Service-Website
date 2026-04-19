@@ -58,7 +58,7 @@ export default function Contact() {
                     <span className="text-lg">{item.icon}</span>
                   </div>
                   <div>
-                    <div className="font-mono text-xs tracking-widest uppercase text-slate-500 mb-0.5">{item.label}</div>
+                    <div className="font-mono text-xs tracking-widest uppercase text-white mb-0.5">{item.label}</div>
                     {item.href
                       ? <a href={item.href} target={item.href.startsWith('http')?'_blank':undefined} rel="noreferrer"
                           className="font-body text-white hover:text-blue-300 transition-colors line-draw">{item.value}</a>
@@ -94,7 +94,7 @@ export default function Contact() {
                   style={{ background:'linear-gradient(135deg,#16a34a,#22c55e)' }}>
                   💬 Also message us on WhatsApp
                 </a>
-                <button onClick={()=>setStatus(null)} className="font-mono text-xs text-slate-500 hover:text-slate-300 transition-colors mt-2">
+                <button onClick={()=>setStatus(null)} className="font-mono text-xs  hover:text-slate-300 transition-colors mt-2">
                   Submit another request
                 </button>
               </div>

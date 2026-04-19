@@ -15,7 +15,7 @@ export default function Footer() {
               </div>
               <span className="font-display font-semibold text-white text-lg">Whitefield Paints Services</span>
             </div>
-            <p className="font-body text-sm leading-relaxed text-slate-500">
+            <p className="font-body text-sm leading-relaxed">
               Professional house painting services in Bangalore. Trusted by 500+ homeowners.
             </p>
             <div className="flex gap-3 mt-5">
@@ -37,7 +37,7 @@ export default function Footer() {
               <ul className="space-y-3">
                 {items.map(item=>(
                   <li key={item}>
-                    <button onClick={()=>scrollTo(id)} className="font-body text-sm text-slate-500 hover:text-white transition-colors line-draw text-left">{item}</button>
+                    <button onClick={()=>scrollTo(id)} className="font-body text-sm  hover:text-white transition-colors line-draw text-left">{item}</button>
                   </li>
                 ))}
               </ul>
@@ -46,11 +46,11 @@ export default function Footer() {
           <div>
             <h4 className="font-mono text-xs tracking-widest uppercase mb-5" style={{ color:'#3b82f6' }}>Contact</h4>
             <ul className="space-y-3">
-              <li><a href="tel:+91-9110423744" className="font-body text-sm text-slate-500 hover:text-white transition-colors">📞 +91 91104 23744</a></li>
+              <li><a href="tel:+91-9110423744" className="font-body text-sm  hover:text-white transition-colors">📞 +91 91104 23744</a></li>
               <li><a href={`https://wa.me/919110423744?text=${encodeURIComponent('Hi! I would like a free painting quote.')}`} target="_blank" rel="noreferrer"
-                className="font-body text-sm text-slate-500 hover:text-white transition-colors">💬 WhatsApp</a></li>
-              <li><span className="font-body text-sm text-slate-500">📍 Kadugodi, Bangalore</span></li>
-              <li><span className="font-body text-sm text-slate-500">🕐 Mon–Sun: 8AM–7PM</span></li>
+                className="font-body text-sm  hover:text-white transition-colors">💬 WhatsApp</a></li>
+              <li><span className="font-body text-sm ">📍 Kadugodi, Bangalore</span></li>
+              <li><span className="font-body text-sm ">🕐 Mon–Sun: 8AM–7PM</span></li>
             </ul>
           </div>
         </div>

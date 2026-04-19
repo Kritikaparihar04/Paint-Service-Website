@@ -63,7 +63,7 @@ export default function Reviews() {
           {/* Rating */}
           <div className="mb-4 text-lg font-semibold text-slate-700 flex items-center justify-center gap-2">
             ⭐ <span>4.9 / 5</span>
-            <span className="text-sm text-slate-500">(450+ reviews)</span>
+            <span className="text-sm ">(450+ reviews)</span>
           </div>
 
           {/* Button */}

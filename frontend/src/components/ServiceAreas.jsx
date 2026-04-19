@@ -54,7 +54,7 @@ export default function ServiceAreas() {
 
         <div className={`mt-12 rounded-2xl p-8 text-center reveal delay-4 ${inView?'visible':''}`}
           style={{ background:'linear-gradient(135deg,#0f172a,#1e293b)' }}>
-          <p className="font-body text-slate-400 text-sm mb-4">Don't see your area? We may still be able to help!</p>
+          <p className="font-body text-slate-400 text-white">Don't see your area? We may still be able to help!</p>
           <a href="tel:+91-9110423744">
             <button className="btn-shine rounded-full px-8 py-3.5 font-body font-semibold text-white transition-all duration-300 hover:scale-105 shadow-lg"
               style={{ background:'linear-gradient(135deg,#2563eb,#3b82f6)' }}>
