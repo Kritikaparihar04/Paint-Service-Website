@@ -38,13 +38,6 @@ export default function WhyUs() {
                 ))}
               </div>
             </div>
-            <div className={`mt-8 reveal delay-4 ${inView?'visible':''}`}>
-              <button onClick={()=>document.getElementById('contact').scrollIntoView({behavior:'smooth'})}
-                className="btn-shine font-body font-semibold px-8 py-4 rounded-full text-white shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300"
-                style={{ background:'linear-gradient(135deg,#1d4ed8,#3b82f6)' }}>
-                Get Free Quote Today →
-              </button>
-            </div>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4" ref={cardsRef}>

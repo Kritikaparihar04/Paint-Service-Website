@@ -43,21 +43,6 @@ export default function Services() {
               </div>
             </div>
           ))}
-
-          {/* CTA tile */}
-          <div className="rounded-2xl p-8 flex flex-col justify-between card-lift"
-            style={{ background:'linear-gradient(135deg,#0f172a,#1e293b)' }}>
-            <div>
-              <span className="font-mono text-xs tracking-widest uppercase block mb-4 gradient-text">Ready to start?</span>
-              <h3 className="font-display text-2xl font-semibold leading-snug text-white">Get a free estimate today</h3>
-              <p className="font-body text-sm mt-3 text-slate-400">We'll visit and give a transparent quote.</p>
-            </div>
-            <button onClick={()=>document.getElementById('contact').scrollIntoView({behavior:'smooth'})}
-              className="btn-shine mt-8 w-full rounded-full py-3.5 font-body font-semibold text-white hover:scale-105 transition-all duration-300 shadow-lg"
-              style={{ background:'linear-gradient(135deg,#2563eb,#3b82f6)' }}>
-              Request Quote →
-            </button>
-          </div>
         </div>
       </div>
     </section>
