@@ -2,10 +2,10 @@ import React from 'react';
 import { useInView } from '../hooks/useInView';
 
 const reviews = [
-  { name:'Kritika Parihar', location:'Dilsukhnagar, Bangalore', rating:5, review:'They did a fantastic job painting our home! They were punctual, professional, and very detail-oriented. The prep work was thorough, and they left the place spotless every day. Highly recommend!', initial:'R', color:'#2563eb' },
-  { name:'Nagaraja C', location:'LB Nagar, Bangalore', rating:5, review:'Good experience with baharul islam and his team at Whitefield painting services, They were very professional, used high -quality materials, and completed the job on time. Baharul is very polite and ensures the costomer is happy with every detail, Highly recommended for any painting needs!"', initial:'P', color:'#0369a1' },
-  { name:'Apoorva Malgatti', location:'Kothapet, Bangalore', rating:5, review:'Baharul and his team did an excellent job. Very professional, punctual, and neat with the work. The finishing was clean and exactly as expected.', initial:'M', color:'#475569' },
-  { name:'Sunita Reddy', location:'Nagole, Bangalore', rating:5, review:'Beautiful service.They are very professional and do the painting work really great. Completely recommend others to use their service , you will be superr satisfied.', initial:'S', color:'#1d4ed8' },
+  { name:'Kritika Parihar', location:'Kadugodi, Bangalore', rating:5, review:'They did a fantastic job painting our home! They were punctual, professional, and very detail-oriented. The prep work was thorough, and they left the place spotless every day. Highly recommend!', initial:'R', color:'#2563eb' },
+  { name:'Nagaraja C', location:'ITPL, Bangalore', rating:5, review:'Good experience with baharul islam and his team at Whitefield painting services, They were very professional, used high -quality materials, and completed the job on time. Baharul is very polite and ensures the costomer is happy with every detail, Highly recommended for any painting needs!"', initial:'P', color:'#0369a1' },
+  { name:'Apoorva Malgatti', location:'Hoskote, Bangalore', rating:5, review:'Baharul and his team did an excellent job. Very professional, punctual, and neat with the work. The finishing was clean and exactly as expected.', initial:'M', color:'#475569' },
+  { name:'Sunita Reddy', location:'Varthur, Bangalore', rating:5, review:'Beautiful service.They are very professional and do the painting work really great. Completely recommend others to use their service , you will be superr satisfied.', initial:'S', color:'#1d4ed8' },
 ];
 
 export default function Reviews() {
