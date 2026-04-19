@@ -164,7 +164,7 @@ export default function Hero() {
                 style={{ background:'linear-gradient(135deg,#2563eb,#3b82f6)' }}>
                 🎨 Get Free Quote
               </button>
-              <a href="https://wa.me/919110423744?text=Hi%2C%20I%20found%20you%20online%20and%20would%20like%20a%20free%20painting%20quote!"
+              <a href="https://wa.me/919513184860?text=Hi%2C%20I%20found%20you%20online%20and%20would%20like%20a%20free%20painting%20quote!"
                 target="_blank" rel="noreferrer"
                 className="btn-shine flex items-center gap-2 font-body font-semibold px-8 py-4 rounded-full border-2 text-white hover:bg-white/10 transition-all duration-300 hover:scale-105 active:scale-95"
                 style={{ borderColor:'rgba(255,255,255,.35)' }}>

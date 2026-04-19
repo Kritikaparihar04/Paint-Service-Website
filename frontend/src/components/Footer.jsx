@@ -19,7 +19,7 @@ export default function Footer() {
               Professional house painting services in Bangalore. Trusted by 500+ homeowners.
             </p>
             <div className="flex gap-3 mt-5">
-              {[['📞','tel:+91-9110423744','#3b82f6'],['💬',`https://wa.me/919110423744?text=${encodeURIComponent('Hi! I would like a free painting quote.')}`,'#22c55e']].map(([icon,href,color],i)=>(
+              {[['📞','tel:+91-9513184860','#3b82f6'],['💬',`https://wa.me/919513184860?text=${encodeURIComponent('Hi! I would like a free painting quote.')}`,'#22c55e']].map(([icon,href,color],i)=>(
                 <a key={i} href={href} target={href.startsWith('http')?'_blank':undefined} rel="noreferrer"
                   className="w-10 h-10 rounded-xl flex items-center justify-center hover:scale-110 transition-transform"
                   style={{ background:`${color}18`, border:`1px solid ${color}35` }}>
@@ -46,8 +46,8 @@ export default function Footer() {
           <div>
             <h4 className="font-mono text-xs tracking-widest uppercase mb-5" style={{ color:'#3b82f6' }}>Contact</h4>
             <ul className="space-y-3">
-              <li><a href="tel:+91-9110423744" className="font-body text-sm  hover:text-white transition-colors">📞 +91 91104 23744</a></li>
-              <li><a href={`https://wa.me/919110423744?text=${encodeURIComponent('Hi! I would like a free painting quote.')}`} target="_blank" rel="noreferrer"
+              <li><a href="tel:+91-9513184860" className="font-body text-sm  hover:text-white transition-colors">📞 +91 95131 84860</a></li>
+              <li><a href={`https://wa.me/919513184860?text=${encodeURIComponent('Hi! I would like a free painting quote.')}`} target="_blank" rel="noreferrer"
                 className="font-body text-sm  hover:text-white transition-colors">💬 WhatsApp</a></li>
               <li><span className="font-body text-sm ">📍 Kadugodi, Bangalore</span></li>
               <li><span className="font-body text-sm ">🕐 Mon–Sun: 8AM–7PM</span></li>
@@ -67,7 +67,7 @@ export default function Footer() {
       </div>
 
       {/* WhatsApp FAB */}
-      <a href={`https://wa.me/919110423744?text=${encodeURIComponent('Hi! I found you online and would like a free painting quote.')}`}
+      <a href={`https://wa.me/919513184860?text=${encodeURIComponent('Hi! I found you online and would like a free painting quote.')}`}
         target="_blank" rel="noreferrer"
         className="fixed bottom-6 right-6 z-40 w-14 h-14 rounded-full flex items-center justify-center shadow-2xl transition-all duration-300 hover:scale-110 pulse-ring"
         style={{ background:'linear-gradient(135deg,#16a34a,#22c55e)' }}>

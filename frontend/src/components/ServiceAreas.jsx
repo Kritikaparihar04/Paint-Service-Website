@@ -40,7 +40,7 @@ export default function ServiceAreas() {
               <span className="font-mono text-xs tracking-widest uppercase transition-colors"
                 style={{ color: selected===i ? 'rgba(255,255,255,.65)' : '#64748b' }}>{area.sub}</span>
               {selected===i && (
-                <a href={`https://wa.me/919110423744?text=${encodeURIComponent(`Hi! I need painting services in ${area.name}, Bangalore. Please share a quote.`)}`}
+                <a href={`https://wa.me/919513184860?text=${encodeURIComponent(`Hi! I need painting services in ${area.name}, Bangalore. Please share a quote.`)}`}
                   target="_blank" rel="noreferrer"
                   onClick={e=>e.stopPropagation()}
                   className="mt-4 bg-white rounded-full px-4 py-2 font-mono text-xs font-semibold hover:scale-105 transition-transform shadow"
@@ -55,10 +55,10 @@ export default function ServiceAreas() {
         <div className={`mt-12 rounded-2xl p-8 text-center reveal delay-4 ${inView?'visible':''}`}
           style={{ background:'linear-gradient(135deg,#0f172a,#1e293b)' }}>
           <p className="font-body text-slate-400 text-white">Don't see your area? We may still be able to help!</p>
-          <a href="tel:+91-9110423744">
+          <a href="tel:+91-9513184860">
             <button className="btn-shine rounded-full px-8 py-3.5 font-body font-semibold text-white transition-all duration-300 hover:scale-105 shadow-lg"
               style={{ background:'linear-gradient(135deg,#2563eb,#3b82f6)' }}>
-              📞 Call Us — +91 91104 23744
+              📞 Call Us — +91 95131 84860
             </button>
           </a>
         </div>

@@ -51,7 +51,7 @@ Whitefield Paint Service            </span>
               {link}
             </button>
           ))}
-          <a href="tel:+91-9110423744">
+          <a href="tel:+91-9513184860">
             <button className="btn-shine ml-2 font-body text-sm font-semibold px-6 py-2.5 rounded-full text-white shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
               style={{ background:'linear-gradient(135deg,#1d4ed8,#3b82f6)' }}>
               📞 Call Now
@@ -80,7 +80,7 @@ Whitefield Paint Service            </span>
               {link}
             </button>
           ))}
-          <a href="tel:+91-9110423744" className="mt-2">
+          <a href="tel:+91-9513184860" className="mt-2">
             <button className="w-full rounded-full py-3 text-white font-body font-semibold hover:opacity-90 transition-opacity"
               style={{ background:'linear-gradient(135deg,#1d4ed8,#3b82f6)' }}>
               📞 Call Now

@@ -47,8 +47,8 @@ export default function Contact() {
             </p>
             <div className="space-y-5">
               {[
-                { icon:'📞', label:'Phone',    value:'+91 91104 23744',  href:'tel:+91-9110423744',   color:'#3b82f6' },
-                { icon:'💬', label:'WhatsApp', value:'Chat with us now', href:`https://wa.me/919110423744?text=${encodeURIComponent('Hi! I found you online and would like a free painting quote.')}`, color:'#22c55e' },
+                { icon:'📞', label:'Phone',    value:'+91 95131 84860',  href:'tel:+91-9513184860',   color:'#3b82f6' },
+                { icon:'💬', label:'WhatsApp', value:'Chat with us now', href:`https://wa.me/919513184860?text=${encodeURIComponent('Hi! I found you online and would like a free painting quote.')}`, color:'#22c55e' },
                 { icon:'📍', label:'Location', value:'Kadugodi, Bangalore', color:'#60a5fa' },
                 { icon:'🕐', label:'Hours',    value:'Mon – Sun: 8AM – 7PM', color:'#94a3b8' },
               ].map((item,i) => (
@@ -69,11 +69,11 @@ export default function Contact() {
               ))}
             </div>
             <div className="mt-10 flex gap-4 flex-col sm:flex-row">
-              <a href="tel:+91-9110423744" className="flex-1">
+              <a href="tel:+91-9513184860" className="flex-1">
                 <button className="btn-shine w-full rounded-full py-3.5 font-body font-semibold text-white hover:scale-105 transition-all flex items-center justify-center gap-2 shadow-lg"
                   style={{ background:'linear-gradient(135deg,#2563eb,#3b82f6)' }}>📞 Call Now</button>
               </a>
-              <a href={`https://wa.me/919110423744?text=${waMsg}`} target="_blank" rel="noreferrer" className="flex-1">
+              <a href={`https://wa.me/919513184860?text=${waMsg}`} target="_blank" rel="noreferrer" className="flex-1">
                 <button className="btn-shine w-full rounded-full py-3.5 font-body font-semibold text-white hover:scale-105 transition-all flex items-center justify-center gap-2 shadow-lg"
                   style={{ background:'linear-gradient(135deg,#16a34a,#22c55e)' }}>💬 WhatsApp</button>
               </a>
@@ -88,7 +88,7 @@ export default function Contact() {
                 <div className="text-6xl mb-6">🎉</div>
                 <h3 className="font-display text-2xl text-white mb-3">Quote Sent!</h3>
                 <p className="font-body text-slate-400 text-sm mb-8">We'll contact you within 24 hours.</p>
-                <a href={`https://wa.me/919110423744?text=${encodeURIComponent('Hi! I just submitted a quote request on your website. Looking forward to hearing from you!')}`}
+                <a href={`https://wa.me/919513184860?text=${encodeURIComponent('Hi! I just submitted a quote request on your website. Looking forward to hearing from you!')}`}
                   target="_blank" rel="noreferrer"
                   className="btn-shine rounded-full px-6 py-3 font-body font-semibold text-white mb-3"
                   style={{ background:'linear-gradient(135deg,#16a34a,#22c55e)' }}>
@@ -138,7 +138,7 @@ export default function Contact() {
                   style={{ background:'linear-gradient(135deg,#1d4ed8,#3b82f6)' }}>
                   {status==='loading'?<><span className="animate-spin inline-block">⟳</span>Sending...</>:'🎨 Get My Free Quote'}
                 </button>
-                <a href={`https://wa.me/919110423744?text=${waMsg}`} target="_blank" rel="noreferrer">
+                <a href={`https://wa.me/919513184860?text=${waMsg}`} target="_blank" rel="noreferrer">
                   <button type="button"
                     className="btn-shine w-full rounded-full py-3.5 font-body font-semibold text-white mt-2 transition-all duration-300 hover:scale-[1.02] flex items-center justify-center gap-2"
                     style={{ background:'linear-gradient(135deg,#16a34a,#22c55e)' }}>
