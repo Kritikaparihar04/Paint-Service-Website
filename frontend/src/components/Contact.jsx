@@ -11,9 +11,10 @@ export default function Contact() {
 
   const handleChange = e => setForm(p => ({ ...p, [e.target.name]: e.target.value }));
 
-  const handleSubmit = async e => {
+ const handleSubmit = async e => {
     e.preventDefault();
     if (!form.name || !form.phone) { setError('Please fill in your name and phone number.'); return; }
+    if (!/^[6-9]\d{9}$/.test(form.phone.replace(/\s+/g,''))) { setError('Please enter a valid 10-digit phone number.'); return; }
     setError(''); setStatus('loading');
     try {
       const res = await fetch('http://localhost:5000/api/quote', {
@@ -22,7 +23,7 @@ export default function Contact() {
       const data = await res.json();
       if (data.success) { setStatus('success'); setForm({ name:'', phone:'', service:'', message:'' }); }
       else { setStatus('error'); setError(data.error||'Something went wrong.'); }
-    } catch { setStatus('error'); setError('Could not connect. Please call us directly.'); }
+    } catch { setStatus('error'); setError('Could not connect to server. Please call us directly.'); }
   };
 
   const waMsg = encodeURIComponent(`Hi, I'm ${form.name||'a customer'}. Interested in ${form.service||'painting services'}. Phone: ${form.phone||'N/A'}. ${form.message?'Details: '+form.message:''}`);
