@@ -10,6 +10,11 @@ app.use(express.json({ limit: '10kb' }));
 // In-memory store for quotes (replace with DB in production)
 const quotes = [];
 
+// Si10-digit startimple phone validation: Indian ng with 6-9
+function isValidPhone(phone) {
+  return /^[6-9]\d{9}$/.test(phone.replace(/\s+/g, ''));
+}
+
 // POST /api/quote - Submit a quote request
 app.post('/api/quote', (req, res) => {
   const { name, phone, service, message } = req.body;
