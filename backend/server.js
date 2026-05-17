@@ -23,6 +23,9 @@ app.post('/api/quote', (req, res) => {
     return res.status(400).json({ success: false, error: 'Name and phone are required.' });
   }
 
+// Basic input sanitisation
+  const sanitise = (str) => String(str).trim().slice(0, 500);
+  
   const quote = {
     id: Date.now(),
     name,
@@ -119,6 +122,12 @@ app.get('/api/reviews', (req, res) => {
   return res.json({ success: true, data: reviews });
 });
 
+// Global error handler
+app.use((err, req, res, _next) => {
+  console.error('Unhandled error:', err.message);
+  res.status(500).json({ success: false, error: 'Internal server error.' });
+});
+    
 app.listen(PORT, () => {
   console.log(`PS House Painters backend running on http://localhost:${PORT}`);
 });
