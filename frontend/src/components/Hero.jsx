@@ -26,12 +26,12 @@ function useTyping(words, speed = 80, pause = 1800) {
         if (charIdx + 1 === word.length) setTimeout(() => setDeleting(true), pause);
         else setCharIdx(c => c + 1);
       } else {
-        setDisplay(word.slice(0, charIdx - 1));
-        if (charIdx - 1 === 0) {
+        if (charIdx === 0) {
+          setDisplay('');
           setDeleting(false);
-          setCharIdx(0);
           setWordIdx(w => (w + 1) % words.length);
         } else {
+          setDisplay(word.slice(0, charIdx));
           setCharIdx(c => c - 1);
         }
       }
