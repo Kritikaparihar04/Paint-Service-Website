@@ -159,11 +159,7 @@ export default function Hero() {
 
             {/* CTAs */}
             <div className={`flex flex-wrap gap-4 transition-all duration-700 delay-500 ${visible?'opacity-100 translate-y-0':'opacity-0 translate-y-4'}`}>
-              <button onClick={() => scrollTo('contact')}
-                className="btn-shine font-body font-semibold px-8 py-4 rounded-full text-white shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 active:scale-95"
-                style={{ background:'linear-gradient(135deg,#2563eb,#3b82f6)' }}>
-                🎨 Get Free Quote
-              </button>
+              
               <a href="https://wa.me/919513184860?text=Hi%2C%20I%20found%20you%20online%20and%20would%20like%20a%20free%20painting%20quote!"
                 target="_blank" rel="noreferrer"
                 className="btn-shine flex items-center gap-2 font-body font-semibold px-8 py-4 rounded-full border-2 text-white hover:bg-white/10 transition-all duration-300 hover:scale-105 active:scale-95"
