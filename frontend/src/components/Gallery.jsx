@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useInView } from '../hooks/useInView';
 
 const galleryItems = [
-  { src:'https://lh3.googleusercontent.com/gps-cs-s/APNQkAHNIqu1h8ov1Al-XiTptIf8NyvXjViZzbbqSgo98kr8lGwsh0hYF3mQyLabsu2cVLl6btZc4oESChBjqfWpO85SfVVh90VHmpBsFLbnXS8x--Q3L8KSrV0L7Y9rO0LWWKDBSQYqXVn_5Xo=s1360-w1360-h1020-rw', alt:'Modern living room interior', label:'Interior — Living Room', tag:'Interior' },
+  { src:'https://lh3.googleusercontent.com/grass-cs/ANxoTn1ZKYnqur80t6wmJh4f49Rrcx7P6udSldPO8EWx7ATITONbXdSMai8YyMFbgD2xtvNn_7nNfBXY0lyv4MfluE0IZoRAo2qeuxKopjGDeMu0ufRlsMSJH1tRu3lUtSw_euFypreioa5FUFE6=s2880-w2880-h1624-rw', alt:'Modern living room interior', label:'Interior — Living Room', tag:'Interior' },
   { src:'https://lh3.googleusercontent.com/p/AF1QipOMtcIej10r5poAh3ypBr3FhNGg6vKMhyf7UlzY=s1360-w1360-h1020-rw', alt:'Exterior house painting', label:'Exterior — Modern Villa', tag:'Exterior' },
   { src:'https://lh3.googleusercontent.com/p/AF1QipOY7JPOMSv0Ogj4FWfnuR8YjWtDGNNiabY4QYJX=s1360-w1360-h1020-rw', alt:'Elegant bedroom painting', label:'Interior — Bedroom', tag:'Interior' },
   { src:'https://lh3.googleusercontent.com/p/AF1QipNJ1ASdtQTGVIhEWpK_cy2dFszRpqnfzaUv0x-M=s1360-w1360-h1020-rw', alt:'Apartment painting', label:'Apartment — Complete', tag:'Apartment' },
