@@ -89,7 +89,7 @@ export default function Hero() {
       {/* ── Full-bleed background image with ken-burns ── */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1562259929-b4e1fd3aef09?w=1600&q=90"
+          src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=1600&q=90"
           alt="Beautiful painted home interior"
           className={`w-full h-full object-cover ken-burns transition-opacity duration-1000 ${imgLoaded ? 'opacity-100' : 'opacity-0'}`}
           onLoad={() => setImgLoaded(true)}
